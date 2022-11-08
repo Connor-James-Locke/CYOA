@@ -17,3 +17,6 @@ a {
 body {
     margin-bottom:200px;
 }
+h1, h2, h3 {
+    text-align: center;
+}

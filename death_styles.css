@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 64px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: red;
+    animation: blink-animation 2.5s steps(5, start) infinite;
+    -webkit-animation: blink-animation 2.5s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+ to {
+  visibility: hidden;
+}
+}
+@-webkit-keyframes blink-animation {
+to {
+  visibility: hidden;
+}
+}
+h2, h3 {
+    text-align: center;
+}
